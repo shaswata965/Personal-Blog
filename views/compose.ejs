@@ -1,0 +1,9 @@
+<%-include('header');-%>
+    <h1 class="display-4 title_h1">Compose New Blog</h1>
+    <form class="" action="/compose" method="post">
+      <input class="input-title text-capitalize" type="text" name="blogTitle" placeholder="Enter The Title">
+      <hr class="my-4">
+      <textarea class="input-content" name="blogContent" rows="8" cols="80" placeholder="Get On Writing"></textarea>
+      <button class="compose_button btn btn-primary btn-lg" type="submit" name="button">Submit</button>
+    </form>
+<%-include('footer');-%>

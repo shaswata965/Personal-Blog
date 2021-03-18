@@ -1,0 +1,21 @@
+<%- include('header'); -%>
+<h2 class="home-h2">Daily Journal</h2>
+<h1 class="home-h1 diplay-4">Home</h1>
+<p class="home-p">This is my personal blogspace. Come here for weekly updates about my thoughts and rants about the technological sphere.</p>
+<p class="home-p">I will diving deep into several topics and my hot takes about the fast paced world that is the technology world.</p>
+<p class="home-p">There are several genres you can find here and they are specially customised and the takes are from a Bangladeshi technology enthusiast.</p>
+
+
+
+  <%  for(var i=0; i<contents.length; i++) {%>
+
+          <%contents.forEach(function(contents){ %>
+            <p class="home-title text-capitalize" ><%=contents.title%></p>
+            <p class="home-blog"><%=contents.content.substring(0,100)%>
+              <a href="/blogs/<%=contents.title%>">.....Read more</a></p>
+          <%})%>
+    <%}%>
+
+
+
+<%- include('footer'); -%>

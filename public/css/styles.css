@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+    background-color: #eeebdd;
+    margin:0;
+    padding:0;
+}
+.jumbotron{
+  background-color: #eeebdd;
+
+}
+.main{
+  height: 100rem;
+  text-align: center;
+  padding: 0;
+}
+/* Navbar Css */
+nav{
+  background-color: #897853;
+}
+nav:hover{
+  opacity: 0.9;
+}
+.logo-img{
+  height: 3rem;
+  width:4rem;
+}
+.navbar-ul{
+  margin-right: 0;
+  text-align: right;
+}
+
+.main{
+  margin-bottom: 0;
+  height: 100vh;
+}
+
+.title_h1{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.title{
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 3rem;
+}
+.compose_button{
+  margin:auto;
+  display: block;
+  width: 20%;
+  margin-top: 2rem;
+}
+.home-title{
+  text-align: left;
+  margin-left: 10vw;
+  font-weight: 500;
+  font-size: 5vh;
+  margin: 2vh 0 2vh 10vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.home-h1, .home-h2,.home-p{
+  margin-top: 5vh;
+  text-align: left;
+  margin-left: 10vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.home-h2,.home-p{
+  opacity:.6;
+}
+.home-blog{
+  text-align: left;
+  margin-left: 10vw;
+  font-family: 'Miriam Libre', sans-serif;
+}
+.input-title, .input-content{
+  text-align: center;
+  width: 40%;
+  height:3rem;
+  border-radius: 1rem;
+  border-style: dotted;
+  border-color: #897853;
+  font-size: 1.5rem;
+}
+.input-title:hover, .input-content:hover, .input-title:focus, .input-content:focus{
+    border-radius: 1rem;
+  border-style: double;
+  border-color:  #897853;
+  outline: none;
+}
+
+
+.input-content{
+ width: 70%;
+ height: 15rem;
+ text-align:justify;
+}
+
+.blog-p{
+  font-size: 1.5rem;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+/* Footer Css */
+#footer{
+  background-color: #16213e;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+
+}
+.footer-icon{
+  padding: 1rem 1rem;
+}
+.footer-p{
+  color: #ea5455;
+  font-size: 1rem;
+}
+
+.shaswata, .shaswata:hover{
+  color: #f39189;
+  text-decoration: none;
+}
+
+/* media css */
+@media (min-width:992px) {
+  .navbar-collapse{
+    flex-basis: 0;
+    flex-grow: 0;
+  }
+}
